@@ -1,5 +1,6 @@
 ### Hello, World 👋
 
+I’m currently learning HTML\CSS. GLHF ^.^
 <!--
 **yakirakira/yakirakira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
