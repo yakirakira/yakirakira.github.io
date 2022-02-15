@@ -1,0 +1,23 @@
+.header{
+    padding: 20px 0;
+}
+
+.header-wrapper{
+    width: 1670px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu__item{
+    font-size: 19px;
+    line-height: 28.5px;
+    color: #333333;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.header-menu__item:not(:last-child){
+    margin-right: 70px;
+}

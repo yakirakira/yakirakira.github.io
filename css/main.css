@@ -1,0 +1,23 @@
+@import "reset.css";
+@import "poppins_font.css";
+@import "header.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1390px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
