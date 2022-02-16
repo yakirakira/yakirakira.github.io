@@ -1,0 +1,33 @@
+.banner{
+    position: absolute;
+    width: 1920px;
+    height: 790px;
+    margin: 0 auto;
+    left: 0px;
+    top: 150px;
+    background-image: url(../static/banner.svg);
+    display: flex;
+    justify-content: center;
+}
+
+.banner-body{
+    width: 1053px;
+    height: 400px;
+    margin: 165px 433px 225px 434px;
+    background-color: #FFFFFF;
+    opacity: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-body__search{
+    border: 1px solid #C9C9C9;
+    min-height: 80px;
+}
+
+input[type="search"] {
+    border: none; 
+    outline: none;
+    width: 830px;
+    vertical-align: middle;
+}

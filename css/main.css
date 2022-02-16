@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "poppins_font.css";
 @import "header.css";
+@import "banner.css";
 
 * {
     box-sizing: border-box;
