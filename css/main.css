@@ -22,3 +22,12 @@ body {
 a {
     text-decoration: none;
 }
+
+button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
