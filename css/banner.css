@@ -24,7 +24,7 @@
     padding: 63px 0 74px;
 }
 
-.banner-body__search{
+.banner-inner__search{
     border: 1px solid #C9C9C9;
     min-height: 80px;
 }
@@ -71,4 +71,12 @@
   font-size: 19px;
   line-height: 28px;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 33px;
 }
+
+.banner-form__submit .icon-search {
+  margin-left: 20px;
+} 
