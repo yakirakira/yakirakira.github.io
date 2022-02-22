@@ -49,8 +49,10 @@
     font-size: 30px;
     line-height: 45px;
     font-weight: 700;
+    color: #4680FF;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .about-us__arrow {
