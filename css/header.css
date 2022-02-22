@@ -21,3 +21,48 @@
 .header-menu__item:not(:last-child){
     margin-right: 70px;
 }
+
+.header-menu__item.active::before,
+.header-menu__item:hover::before{
+  content: '';
+  display: block;
+  width: 56px;
+  height: 3px;
+  background-color: #4680FF;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-signout {
+    font-size: 19px;
+    line-height: 28px;
+    color: #4680FF;
+}
+
+.header-user {
+    min-width: 230px;
+    height: 60px;
+    background-color: #4680FF;
+    color: #FFFFFF;
+    font-size: 19px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-user .icon-user {
+    margin-left: 10px;
+}
+
+.header-right__item:not(:last-child) {
+    margin-right: 39px;
+}
