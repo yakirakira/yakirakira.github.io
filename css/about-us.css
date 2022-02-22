@@ -1,19 +1,13 @@
 .about-us {
-    position: absolute;
     width: 100%;
     height: 850px;
     margin: 0 auto;
-    left: 0px;
-    top: 940px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about-us-inner {
-    width: 1388px;
-    height: 550px; 
-    margin: 150px 256px 150px;
+.about-us__inner { 
     display: flex;
     justify-content: space-between;
 }
@@ -24,8 +18,7 @@
 
 .about-us__right {
     width: 590px;
-    height: auto;
-    margin: 9px 5px 9px 100px;
+    margin-left: 100px;
 }
 
 .about-us__title {
@@ -45,7 +38,6 @@
 
 .about-us__link {
     min-width: 125px;
-    height: 45px;
     font-size: 30px;
     line-height: 45px;
     font-weight: 700;
