@@ -5,6 +5,7 @@
 @import "about-us.css";
 @import "steps.css";
 @import "new-profiles.css";
+@import "footer.css";
 
 * {
     box-sizing: border-box;
