@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.about-us__inner { 
+.about-us-inner { 
     display: flex;
     justify-content: space-between;
 }
