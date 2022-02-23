@@ -4,6 +4,7 @@
 @import "banner.css";
 @import "about-us.css";
 @import "steps.css";
+@import "new-profiles.css";
 
 * {
     box-sizing: border-box;
