@@ -3,7 +3,8 @@
 }
 
 .header-inner{
-    width: 1670px;
+    max-width: 1710px;
+    padding: 0 20px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -41,6 +42,15 @@
     align-items: center;
 }
 
+.header-logo{
+  width: 160px;
+  display: block;
+}
+
+.header-logo img{
+  width: 100%;
+}
+
 .header-signout {
     font-size: 19px;
     line-height: 28px;
@@ -63,11 +73,112 @@
     margin-left: 10px;
 }
 
-.header-right__item:not(:last-child) {
-    margin-right: 39px;
+.header-right__item:not(:first-child) {
+    margin-left: 39px;
 }
 
+.burger,
+.header-menu-x{
+  display: none;
+}
 
-@media all and (max-width: 1389px) and (min-width: 1024px){
+/* Tablet and mob */
+@media all and (max-width: 1389px){
+  .burger{
+    cursor: pointer;
+    display: block;
+  }
 
+  .burger img{
+    width: 100%;
+  }
+
+  .header-menu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 777;
+    background-color: rgba(255,255,255,.9);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-menu.active{
+    display: flex;
+  }
+
+  .header-menu-x{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: url('../static/icons/x-circle.svg') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+
+  }
+  .header-menu__item:not(:last-child){
+    margin-right: 0;
+  }
+  .header-menu__item{
+    font-size: 30px;
+    margin-bottom: 50px;
+    display: block;
+  }
+}
+
+/* Tablet only */
+@media all and (min-width: 1024px) and (max-width: 1389px){
+  .header{
+    padding: 35px 0;
+  }
+  .header-inner{
+    width: 904px;
+  }
+  .header-logo{
+    min-width: 115px;
+    width: 115px;
+  }
+
+  .burger{
+    width: 50px;
+  }
+
+}
+
+/* Mob only */
+@media all and (max-width: 1023px){
+  .header{
+    padding: 20px 0;
+  }
+  .header-inner{
+    width: 100%;
+    max-width: 375px;
+    padding: 0 20px;
+  }
+  .header-logo{
+    min-width: 60px;
+    width: 60px;
+  }
+  .header-search,
+  .header-user{
+    display: none;
+  }
+  
+  .header-signout{
+    font-size: 15px;
+  }
+
+  .burger{
+    width: 37px;
+  }
+
+  .header-right__item:not(:first-child){
+    margin-left: 25px;
+  }
 }

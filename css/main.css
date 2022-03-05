@@ -43,3 +43,11 @@ button{
     max-width: 904px;
   }
 }
+
+
+@media all and (max-width: 1023px){
+  .container {
+    max-width: 375px;
+    padding: 0 20px;
+  }
+}
