@@ -52,3 +52,41 @@
     height: 14px;
     margin: 15px 1px 16px 27px;
 }
+
+/* Tablet only */
+@media all and (min-width: 1024px) and (max-width: 1390px){
+    .about-us {
+        height: auto;
+        margin: 50px 0;
+    }
+    
+    .about-us-inner { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-us-left {
+        margin-bottom: 40px;
+    }
+
+    .about-us__right {
+        margin-left: 0;
+    }
+
+    .about-us__title {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    
+    .about-us__text {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    
+    .about-us__link {
+        font-size: 22px;
+        line-height: 30px;
+    }
+  }

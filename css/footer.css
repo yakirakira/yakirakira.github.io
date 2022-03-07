@@ -41,3 +41,28 @@
 .footer-bottom__rights {
     margin-right: 60px;
 }
+
+/* Tablet only */
+@media all and (min-width: 1024px) and (max-width: 1389px){
+    .footer {
+        padding-bottom: 20px;
+    }
+    
+    .footer-logo {
+        min-width: 115px;
+        width: 160px;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-menu__item:not(:last-child){
+        margin-bottom: 13px;
+    }
+
+    .footer-top {
+        margin-bottom: 60px;
+    }
+}

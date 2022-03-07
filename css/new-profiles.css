@@ -148,3 +148,31 @@
   opacity: 1;
   visibility: visible;
 }
+
+/* Tablet only */
+@media all and (min-width: 1024px) and (max-width: 1390px){
+  .new-profiles-top {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-left: 85px;
+    align-items: flex-start;
+  }
+
+  .new-profiles__title {
+    font-size: 50px;
+    line-height: 70px;
+    margin-right: 70px;
+  }
+
+.new-profiles__text {
+    font-size: 17px;
+    line-height: 28px;
+    margin-right: 70px;
+  }
+
+.new-profiles__link {
+    font-size: 22px;
+    line-height: 40px;
+  }
+}

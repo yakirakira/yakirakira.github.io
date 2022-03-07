@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .banner-inner{
@@ -79,3 +78,61 @@
 .banner-form__submit .icon-search {
   margin-left: 20px;
 } 
+
+/* Tablet only */
+@media all and (min-width: 1024px) and (max-width: 1390px){
+  .banner{
+    height: 650px;
+  }
+  
+  .banner-inner{
+    width: 700px;
+  }
+
+  .banner__title{
+    font-size: 50px;
+    line-height: 75px;
+    margin-bottom: 25px;
+  }
+
+  .banner-inner__search{
+    min-height: 50px;
+}
+
+  .banner-form__search{
+    width: 600px;
+    height: 50px;
+    padding-right: 0;
+  }
+
+  .banner-form__input{
+    font-size: 16px;
+    line-height: 22px;
+    height: 60px;
+  }
+  
+  .banner-form__submit{
+    height: 60px;
+    width: 165px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+/* Mob only */
+@media all and (max-width: 1023px){
+  .banner{
+    height: 310px;
+  }
+
+  .banner-inner{
+    width: 300px;
+  }
+
+  .banner__title{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+}

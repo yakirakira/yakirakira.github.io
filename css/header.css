@@ -106,6 +106,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .header-menu.active{
     display: flex;
   }
@@ -137,9 +138,11 @@
   .header{
     padding: 35px 0;
   }
+
   .header-inner{
     width: 904px;
   }
+  
   .header-logo{
     min-width: 115px;
     width: 115px;

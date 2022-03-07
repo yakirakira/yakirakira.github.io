@@ -44,7 +44,6 @@ button{
   }
 }
 
-
 @media all and (max-width: 1023px){
   .container {
     max-width: 375px;
