@@ -1,11 +1,14 @@
-@import "reset.css";
-@import "poppins_font.css";
-@import "header.css";
+/* always include */
+@import "../general/reset.css";
+@import "../general/poppins_font.css";
+@import "../general/header.css";
+@import "../general/footer.css";
+/* --- */
+
 @import "../main/banner.css";
 @import "../main/about-us.css";
 @import "../main/steps.css";
 @import "../main/new-profiles.css";
-@import "footer.css";
 
 * {
     box-sizing: border-box;

@@ -4,7 +4,7 @@
     margin: 0 auto;
     left: 0px;
     top: 150px;
-    background: url('/static/banner.jpg') no-repeat center center;
+    background: url('../../static/banner.jpg') no-repeat center center;
     display: flex;
     justify-content: center;
     align-items: center;
