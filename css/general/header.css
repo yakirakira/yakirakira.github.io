@@ -118,7 +118,7 @@
     right: 20px;
     width: 50px;
     height: 50px;
-    background: url('../static/icons/x-circle.svg') no-repeat center center;
+    background: url('/static/icons/x-circle.svg') no-repeat center center;
     background-size: cover;
     cursor: pointer;
 

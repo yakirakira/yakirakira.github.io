@@ -1,10 +1,10 @@
 @import "reset.css";
 @import "poppins_font.css";
 @import "header.css";
-@import "banner.css";
-@import "about-us.css";
-@import "steps.css";
-@import "new-profiles.css";
+@import "../main/banner.css";
+@import "../main/about-us.css";
+@import "../main/steps.css";
+@import "../main/new-profiles.css";
 @import "footer.css";
 
 * {
