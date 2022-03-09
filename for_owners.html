@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <title>Check your crew</title>
+        <title>For owners</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/main/main.css">
+        <link rel="stylesheet" href="css/for_owners/for_owners.css">
     </head>
     <body>
         <header class="header"> 
@@ -14,9 +14,9 @@
                     <img src="./static/logo.svg" alt="logo">
                 </a>
                 <div class="header-menu">
-                    <a href="#" class="header-menu__item active">Home page</a>
+                    <a href="index.html" class="header-menu__item">Home page</a>
                     <a href="for_seafarers.html" class="header-menu__item">For seafarers</a>
-                    <a href="for_owners.html" class="header-menu__item">For owners</a>
+                    <a href="for_owners.html" class="header-menu__item  active">For owners</a>
                     <a href="#" class="header-menu__item">Seafarer profiles</a>
                     <div class="header-menu-x"></div>
                 </div>
@@ -25,61 +25,70 @@
                         <img src="./static/icons/search.svg" alt="search">
                     </button>
                     <a href="#" class="header-right__item header-signout">Sign Out</a>
-                    <a href="" class="header-right__item header-user">Vladymir Petrov <img class="icon-user" src="./static/icons/user.svg" alt="user"></a>
+                    <a href="#" class="header-right__item header-user">Log in</a>
                     <div class="header-right__item burger">
                       <img src="./static/icons/burger.svg" alt="burger">
                     </div>
                 </div>
             </div>
         </header>
-        <div class="banner">
-            <div class="banner-inner">
-              <h1 class="banner__title">Check your <span class="banner__title_highlighted">crew</span></h1> 
-              <form class="banner-form">
-                <div class="banner-form__search">
-                    <input class="banner-form__input" placeholder="Type your name or surname..." type="search" name="q">
-                    <button class="banner-form__submit" type="submit">Search <img src="./static/icons/searchbtn.svg" alt="search" class="icon-search"></button>
+        <div class="profile">
+            <div class="container profile-inner">
+                <div class="profile-top">
+                    <h1 class="profile__title">For owners</h1>
+                    <p class="profile__text">Check reviews of your seafarers before contracting</p>
+                    <a href="#" class="profile__button">Check a Profile <img class="anchor" src="./static/icons/anchor.svg" alt="anchor"></a>
                 </div>
-              </form>
+                <div class="profile-bottom">
+                    <img class="profile-img" src="./static/owners_profile.jpg" alt="seafarers">
+                </div>
             </div>
         </div>
-        <div class="about-us">
-            <div class="container about-us-inner">
-                <div class="about-us-left">
-                    <img class="about-us__img" src="./static/about-us.jpg" alt="gays">
+        <div class="description">
+            <div class="container description-inner">
+                <h2 class="description__title">How does CheckYourCrew work for owners?</h2>
+                <div class="description-content">
+                    <div class="content-left">
+                        <img src="./static/owners_description.jpg" alt="description_img">
+                    </div>
+                    <div class="content-right">
+                        <p class="description__text">It's a great place to vet your candidates, read reviews from past contracts, and pick the best ones.</p>
+                        <p class="description__text"> <span class="description__headline">Check your candidates</span>
+                            <br>
+                            Just complete your profile, attach your CV, do your job well and get new career opportunities.</p>
+                        <p class="description__text"><span class="description__headline">Send feedback on seafarers</span>
+                            <br> 
+                            Crewing companies are now looking for thousands of qualified people for various positions, paying the right price for great work. You do that thing you do, and we’ll do the rest.</p>
+                    </div>
                 </div>
-                <div class="about-us__right">
-                    <h2 class="about-us__title">About us</h2>
-                    <p class="about-us__text">
-                        Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. 
-                    </p>
-                    <p class="about-us__text">
-                        Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet ni
-                    </p>
-                    <a class="about-us__link" href="#" >More <img class="about-us__arrow" src="./static/icons/arrow.svg" alt="arrow"></a>
-                </div>         
             </div>
         </div>
         <div class="steps">
             <div class="container steps-inner">
                 <div class="steps-top">
-                    <h2 class="steps__title">How does it work</h2>
-                    <p class="steps__text">Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie</p>
+                    <div class="steps-discription">
+                        <h2 class="steps__title">Think big. No, bigger.</h2>
+                        <p class="steps__text">We've seen people just like you build careers beyond their <br> expectations. All you need is an internet connection, a skill, <br> and dedication.</p>
+                        <a href="#" class="steps__button">Get Started Now <img class="anchor" src="./static/icons/anchor.svg" alt="anchor"></a>
+                    </div>
+                    <div class="steps-img">
+                        <img src="./static/owners_steps.jpg" alt="">
+                    </div>    
                 </div>
                 <div class="steps-bottom">
                     <div class="steps-bottom__point">
                         <div class="point-number">1</div>
-                        <h5 class="point-title">Sign up</h5>
+                        <h5 class="point-title">Get your free account</h5>
                         <p class="point-text">Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet </p>
                     </div>
                     <div class="steps-bottom__point">
                         <div class="point-number">2</div>
-                        <h5 class="point-title">Check the sailor</h5>
+                        <h5 class="point-title">Enter name or ID seafarer</h5>
                         <p class="point-text">Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet </p>
                     </div>
                     <div class="steps-bottom__point">
                         <div class="point-number">3</div>
-                        <h5 class="point-title">Successful hiring</h5>
+                        <h5 class="point-title">Get review</h5>
                         <p class="point-text">Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet </p>
                     </div>
                 </div>
@@ -140,6 +149,15 @@
                 </div>
             </div>
         </div>
+        <div class="review">
+            <div class="container review-inner">
+                <div class="review-frame">
+                    <h2 class="frame__title">Ready to check your <br> condidates?</h2>
+                    <p class="frame__text">Check reviews of your seafarers before contracting</p>
+                    <a class="frame__button" href="#">Get Started <img class="anchor" src="./static/icons/anchor.svg" alt="anchor"></a>
+                </div>
+            </div>
+        </div>
         <footer class="footer">
             <div class="container footer-inner">
                 <div class="footer-top">
@@ -165,18 +183,5 @@
                 </div>
             </div>
         </footer>
-
-        <script>
-          const burger = document.querySelector('.burger')
-          const menu = document.querySelector('.header-menu')
-          const x = document.querySelector('.header-menu-x')
-
-          burger.addEventListener('click', function(e){
-            menu.classList.add('active')
-          })
-          x.addEventListener('click', function(e){
-            menu.classList.remove('active')
-          })
-        </script>
     </body>
 </html>

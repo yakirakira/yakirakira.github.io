@@ -1,0 +1,37 @@
+.description {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.description__title {
+    font-size: 70px;
+    line-height: 90px;
+    font-weight: 800;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.description-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-left {
+    margin-right: 100px;
+}
+
+.content-right {
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.description__text {
+    margin-bottom: 33px;
+}
+
+.description__headline {
+    font-weight: 700;
+}
