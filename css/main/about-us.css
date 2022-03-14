@@ -90,3 +90,45 @@
         line-height: 30px;
     }
   }
+
+  /* Mob only */
+@media all and (max-width: 1023px){
+    .about-us {
+        width: 100%;
+        height: auto;
+        margin: 50px 0;
+    }
+    
+    .about-us-inner { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-us-left {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .about-us__right {
+        margin: 0 auto;
+    }
+
+    .about-us__title {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 40px;
+    }
+    
+    .about-us__text {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    
+    .about-us__link {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+}

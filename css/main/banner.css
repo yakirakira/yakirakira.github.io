@@ -123,16 +123,43 @@
 /* Mob only */
 @media all and (max-width: 1023px){
   .banner{
-    height: 310px;
+    height: 587px;
   }
 
   .banner-inner{
-    width: 300px;
+    width: 335px;
   }
 
   .banner__title{
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 43px;
+    text-align: center;
   }
+
+  .banner-form__search{
+    width: 290px;
+    height: 50px;
+    padding-right: 0;
+  }
+
+  .btn-text{
+    display: none;
+  }
+
+  .banner-form__input{
+    font-size: 14px;
+    line-height: 23px;
+    height: 50px;
+  }
+  
+  .banner-form__submit{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+  }
+
+  .banner-form__submit .icon-search {
+    filter: brightness(50%);
+  } 
 }
