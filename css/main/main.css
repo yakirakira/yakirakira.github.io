@@ -41,6 +41,10 @@ button{
   cursor: pointer;
 }
 
+.hidden-content {
+  display: none;
+}
+
 @media all and (max-width: 1389px) and (min-width: 1024px){
   .container {
     max-width: 904px;

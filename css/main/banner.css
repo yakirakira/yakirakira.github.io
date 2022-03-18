@@ -5,6 +5,7 @@
     left: 0px;
     top: 150px;
     background: url('../../static/banner.jpg') no-repeat center center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
