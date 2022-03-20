@@ -1,0 +1,56 @@
+/* always include */
+@import "../general/reset.css";
+@import "../general/poppins_font.css";
+@import "../general/header.css";
+@import "../general/footer.css";
+/* --- */
+
+@import "../error/error_frame.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.container {
+  max-width: 1390px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.hidden-content {
+  display: none;
+}
+
+@media all and (max-width: 1389px) and (min-width: 1024px){
+  .container {
+    max-width: 904px;
+  }
+}
+
+@media all and (max-width: 1023px){
+  .container {
+    max-width: 375px;
+    padding: 0 20px;
+  }
+}
