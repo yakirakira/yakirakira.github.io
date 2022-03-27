@@ -1,9 +1,9 @@
-.owners-reg {
+.owners-account {
     width: 100%;
     margin: 0 auto;
 }
 
-.owners-reg__title {
+.owners-account__title {
     font-size: 100px;
     line-height: 150px;
     font-weight: 700;
@@ -12,23 +12,23 @@
     margin: 5px 0 25px;
 }
 
-.owners-reg-bottom {
+.owners-account-bottom {
     display: flex;
     margin-bottom: 110px;
 }
 
-.reg-img-wrapper {
+.account-img-wrapper {
     max-height: 640px;
-    margin-right: 150px;
+    margin-left: 150px;
 }
 
-.reg__img {
+.account__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.reg-form {
+.account-form {
     max-width: 550px;
     display: flex;
     flex-direction: column;
@@ -140,12 +140,23 @@ input::placeholder {
     color: #8B8B8B;
 }
 
+.buttons {
+    display: flex;
+}
+
 .form-btn {
-    width: 550px;
+    width: 260px;
     height: 60px;
     background-color: #4680FF;
     font-size: 19px;
     line-height: 28px;
     color: #fff;
     margin-top: 25px;
+}
+
+.cancel {
+    margin-right: 30px;
+    background-color: transparent;
+    color: #4680FF;
+    border: 1px solid #4680FF;
 }

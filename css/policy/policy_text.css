@@ -1,0 +1,27 @@
+.policy {
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.policy-inner {
+    padding: 0 140px;
+}
+
+.policy__title {
+    font-size: 100px;
+    line-height: 150px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.policy__text {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.chapter {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+}

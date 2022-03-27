@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/seafarers_reg/seafarers_reg.css">
+        <link rel="stylesheet" href="./css/seafarares_account/seafarers_account.css">
     </head>
     <body>
         <header class="header"> 
@@ -14,8 +14,8 @@
                     <img src="./static/logo.svg" alt="logo">
                 </a>
                 <div class="header-menu">
-                    <a href="#" class="header-menu__item active">Home page</a>
-                    <a href="for_seafarers.html" class="header-menu__item">For seafarers</a>
+                    <a href="index.html" class="header-menu__item">Home page</a>
+                    <a href="for_seafarers.html" class="header-menu__item active">For seafarers</a>
                     <a href="for_owners.html" class="header-menu__item">For owners</a>
                     <a href="#" class="header-menu__item">Seafarer profiles</a>
                     <div class="header-menu-x"></div>
@@ -25,20 +25,17 @@
                         <img src="./static/icons/search.svg" alt="search">
                     </button>
                     <a href="#" class="header-right__item header-signout">Sign Out</a>
-                    <a href="" class="header-right__item header-user">Vladymir Petrov <img class="icon-user" src="./static/icons/user.svg" alt="user"></a>
+                    <a href="" class="header-right__item header-user">Log in</a>
                     <div class="header-right__item burger">
                       <img src="./static/icons/burger.svg" alt="burger">
                     </div>
                 </div>
             </div>
         </header>
-        <div class="seafarers-reg">
-            <div class="container seafarers-reg-inner">
-                <h1 class="seafarers-reg__title">Seafarer Register</h1>
-                <div class="seafarers-reg-bottom">
-                    <div class="reg-img-wrapper">
-                        <img class="reg__img" src="./static/seafarers-reg-img.jpg" alt="kiss">
-                    </div>
+        <div class="seafarers-account">
+            <div class="container seafarers-account-inner">
+                <h1 class="seafarers-account__title">Your account</h1>
+                <div class="seafarers-account-bottom">
                     <form class="reg-form" action="#" method="get">
                         <p class="name">Your fullname*</p>
                         <div class="input-wrapper">
@@ -55,9 +52,15 @@
                         <p class="password">Create password*</p>
                         <div class="input-wrapper">
                             <input class="reg__input" type="password" placeholder="Enter a password" name="p">
+                        </div>                    
+                        <div class="buttons">
+                            <button class="form-btn cancel" type="submit">Cancel</button>
+                            <button class="form-btn save" type="submit">Save</button>
                         </div>
-                        <button class="form-btn" type="submit">Register</button>
                     </form>
+                    <div class="account-img-wrapper">
+                        <img class="account__img" src="./static/owner_reg.jpg" alt="reg">
+                    </div>
                 </div>
             </div>
         </div>

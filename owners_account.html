@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/owners_reg/owners_reg.css">
+        <link rel="stylesheet" href="./css/owners_account/owners_account.css">
     </head>
     <body>
         <header class="header"> 
@@ -14,8 +14,8 @@
                     <img src="./static/logo.svg" alt="logo">
                 </a>
                 <div class="header-menu">
-                    <a href="#" class="header-menu__item active">Home page</a>
-                    <a href="for_seafarers.html" class="header-menu__item">For seafarers</a>
+                    <a href="index.html" class="header-menu__item">Home page</a>
+                    <a href="for_seafarers.html" class="header-menu__item active">For seafarers</a>
                     <a href="for_owners.html" class="header-menu__item">For owners</a>
                     <a href="#" class="header-menu__item">Seafarer profiles</a>
                     <div class="header-menu-x"></div>
@@ -32,14 +32,11 @@
                 </div>
             </div>
         </header>
-        <div class="owners-reg">
-            <div class="container owners-reg-inner">
-                <h1 class="owners-reg__title">Owner Register</h1>
-                <div class="owners-reg-bottom">
-                    <div class="reg-img-wrapper">
-                        <img class="reg__img" src="./static/owner_reg.jpg" alt="reg">
-                    </div>
-                    <form class="reg-form" action="#" method="get">
+        <div class="owners-account">
+            <div class="container owners-account-inner">
+                <h1 class="owners-account__title">Your account</h1>
+                <div class="owners-account-bottom">
+                    <form class="account-form" action="#" method="get">
                         <p class="input__title">Company name*</p>
                         <div class="name-input">
                             <input class="reg__input" type="text" placeholder="Enter company name" name="n">
@@ -88,8 +85,14 @@
                         <div class="password-input">
                             <input class="reg__input" type="password" placeholder="Enter a password" name="p">
                         </div>
-                        <button class="form-btn" type="submit">Register</button>
+                        <div class="buttons">
+                            <button class="form-btn cancel" type="submit">Cancel</button>
+                            <button class="form-btn save" type="submit">Save</button>
+                        </div>
                     </form>
+                    <div class="account-img-wrapper">
+                        <img class="account__img" src="./static/owner_reg.jpg" alt="reg">
+                    </div>
                 </div>
             </div>
         </div>

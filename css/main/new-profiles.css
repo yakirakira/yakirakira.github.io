@@ -138,7 +138,7 @@
 }
 
 .card:hover .card-inner{
-  max-height: 714px;
+  height: 714px;
 }
 
 .card:hover .card-inner::before{

@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/seafarers_reg/seafarers_reg.css">
+        <link rel="stylesheet" href="./css/loginin/login_in.css">
     </head>
     <body>
         <header class="header"> 
@@ -14,8 +14,8 @@
                     <img src="./static/logo.svg" alt="logo">
                 </a>
                 <div class="header-menu">
-                    <a href="#" class="header-menu__item active">Home page</a>
-                    <a href="for_seafarers.html" class="header-menu__item">For seafarers</a>
+                    <a href="index.html" class="header-menu__item">Home page</a>
+                    <a href="for_seafarers.html" class="header-menu__item  active">For seafarers</a>
                     <a href="for_owners.html" class="header-menu__item">For owners</a>
                     <a href="#" class="header-menu__item">Seafarer profiles</a>
                     <div class="header-menu-x"></div>
@@ -25,38 +25,32 @@
                         <img src="./static/icons/search.svg" alt="search">
                     </button>
                     <a href="#" class="header-right__item header-signout">Sign Out</a>
-                    <a href="" class="header-right__item header-user">Vladymir Petrov <img class="icon-user" src="./static/icons/user.svg" alt="user"></a>
+                    <a href="" class="header-right__item header-user">Log in </a>
                     <div class="header-right__item burger">
                       <img src="./static/icons/burger.svg" alt="burger">
                     </div>
                 </div>
             </div>
         </header>
-        <div class="seafarers-reg">
-            <div class="container seafarers-reg-inner">
-                <h1 class="seafarers-reg__title">Seafarer Register</h1>
-                <div class="seafarers-reg-bottom">
+        <div class="loginin-reg">
+            <div class="container loginin-reg-inner">
+                <h1 class="loginin-reg__title">Seafarer Register</h1>
+                <div class="loginin-reg-bottom">
                     <div class="reg-img-wrapper">
                         <img class="reg__img" src="./static/seafarers-reg-img.jpg" alt="kiss">
                     </div>
                     <form class="reg-form" action="#" method="get">
-                        <p class="name">Your fullname*</p>
-                        <div class="input-wrapper">
-                            <input class="reg__input" type="text" placeholder="Enter name" name="n">
-                        </div>
-                        <p class="ID">Crewell ID</p>
-                        <div class="input-wrapper">
-                            <input class="reg__input" type="text" placeholder="Enter crewell ID" name="i">
-                        </div>
                         <p class="email">Email address*</p>
                         <div class="input-wrapper">
-                            <input class="reg__input" type="email" placeholder="Enter email address" name="e">
+                            <input class="reg__input" type="text" placeholder="Enter email address" name="e">
                         </div>
-                        <p class="password">Create password*</p>
+                        <p class="password">Password*</p>
                         <div class="input-wrapper">
                             <input class="reg__input" type="password" placeholder="Enter a password" name="p">
                         </div>
-                        <button class="form-btn" type="submit">Register</button>
+                        <a href="" class="recovery"><span class="underlined">Forgot the password?</span></a>
+                        <button class="form-btn" type="submit">Log in</button>
+                        <a href="" class="register">Not registered yet?<span class="underlined">Register</span></a>
                     </form>
                 </div>
             </div>

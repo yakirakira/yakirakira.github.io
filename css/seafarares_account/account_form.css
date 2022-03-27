@@ -1,0 +1,137 @@
+.seafarers-account {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.seafarers-account__title {
+    font-size: 100px;
+    line-height: 150px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    margin: 5px 0 25px;
+}
+
+.seafarers-account-bottom {
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.account-img-wrapper {
+    max-height: 640px;
+    margin-left: 150px;
+}
+
+.account__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-wrapper {
+    width: 550px;
+    height: 64px;
+    margin-bottom: 15px;
+}
+
+.reg__input {
+    padding-left: 29px;
+    font-size: 19px;
+    line-height: 28px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #C9C9C9;
+}
+
+.reg__input:focus {
+    outline: none;
+    border: 1px solid #4680FF;
+    color: #8B8B8B;
+}
+
+input::placeholder {
+    color: #C9C9C9;
+  }
+
+.name {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 7px;
+    color: #8B8B8B;
+}
+
+.ID {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 7px;
+    color: #8B8B8B;
+}
+
+.email {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 7px;
+    color: #8B8B8B;
+}
+
+.password {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 7px;
+    color: #8B8B8B;
+}
+
+.reg__input {
+    font-size: 19px;
+    line-height: 28px;
+    width: 100%;
+    height: 100%;
+    padding-left: 29px;
+    padding-right: 28px;
+    border: 1px solid #C9C9C9;
+    color: #C9C9C9;
+}
+
+.reg__input:focus {
+    outline: none;
+    border: 1px solid #4680FF;
+    color: #8B8B8B;
+}
+
+input::placeholder {
+    color: #C9C9C9;
+  }
+
+.input__title {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 7px;
+    color: #8B8B8B;
+}
+
+.buttons {
+    display: flex;
+}
+
+.form-btn {
+    width: 260px;
+    height: 60px;
+    background-color: #4680FF;
+    font-size: 19px;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.cancel {
+    margin-right: 30px;
+    background-color: transparent;
+    color: #4680FF;
+    border: 1px solid #4680FF;
+}
