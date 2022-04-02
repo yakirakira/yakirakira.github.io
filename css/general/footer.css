@@ -29,17 +29,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #4680FF;
     font-size: 14px;
     line-height: 21px;
 }
 
 .footer-bottom__app {
     margin-right: 60px;
+    color: #4680FF;
 }
 
 .footer-bottom__rights {
     margin-right: 60px;
+    color: #4680FF;
+}
+
+.footer-bottom__policy {
+    color: #4680FF;
 }
 
 /* Tablet only */
