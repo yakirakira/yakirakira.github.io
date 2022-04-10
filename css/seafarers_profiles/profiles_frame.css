@@ -1,5 +1,5 @@
 .profiles-frame-inner {
-    padding-left: 277px;
+    display: flex;
 }
 
 .profile {

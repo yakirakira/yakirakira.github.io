@@ -46,107 +46,156 @@
         </div>
         <div class="profiles-frame">
             <div class="profiles-frame-inner container">
-                <div class="profile">
-                    <div class="profile-inner">
-                        <div class="left-content">
-                            <img class="profile__img" src="./static/ter.jpg" alt="img">
-                        </div>
-                        <div class="center-content">
-                            <h4 class="profile__name">Ivan Pylypenko</h4>
-                            <div class="rate-frame">
-                                Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
+                <div class="filters">
+                    <h3 class="filters__title">Filters</h3>
+                    <form class="filters-form">
+                        <div class="country-block">
+                            <h5 class="filter-title">Country</h5>
+                            <div class="country-input">
+                                <select name="country" class="reg__input country__select" id="country">
+                                    <option value="0" label="Select country" selected="selected">Select country </option>
+                                    <optgroup id="country-optgroup-Africa" label="Africa">
+                                        <option value="DZ" label="Algeria">Algeria</option>
+                                        <option value="AO" label="Angola">Angola</option>
+                                    </optgroup>
+                                </select>
                             </div>
-                            <a class="profile-button" href="">Check</a>
                         </div>
-                        <div class="right-content">
-                            <p class="profile-age">Age: 50 y.o </p>
-                            <p class="profile-country">Country: Ukraine, Kyiv.</p>
-                            <p class="profile-profession">2nd officer on Passenger Ships</p>
-                            <p class="profile-id">Crewell ID: 98765</p>
+                        <div class="position-block">
+                            <h5 class="filter-title">Position</h5>
+                            <div class="checkbox__item">
+                                <input type="checkbox" name="position" id="" value="" checked>
+                                <label for="position">Chief Officer</label>
+                            </div>
+                            <div class="checkbox__item">
+                                <input type="checkbox" name="position" id="" value="">
+                                <label for="position">Chief Officer</label>
+                            </div>
+                            <div class="checkbox__item">
+                                <input type="checkbox" name="position" id="" value="">
+                                <label for="position">Chief Officer</label>
+                            </div>
+                        </div>
+                        <div class="type-of-ship-block">
+                            <h5 class="filter-title">Type of ship</h5>
+                            <div class="checkbox__item">
+                                <input type="checkbox" name="type-of-ship" id="" value="Offshore">
+                                <label for="type-of-ship">Offshore fleet</label>
+                            </div>
+                            <div class="checkbox__item">
+                                <input type="checkbox" name="type-of-ship" id="" value="Support">
+                                <label for="type-of-ship">Support fleet</label>
+                            </div>
+                            <div class="checkbox__item">
+                                <input type="checkbox" name="type-of-ship" id="" value="Dry cargo">
+                                <label for="type-of-ship">Dry cargo Fleet</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="profiles-block">
+                    <div class="profile">
+                        <div class="profile-inner">
+                            <div class="left-content">
+                                <img class="profile__img" src="./static/ter.jpg" alt="img">
+                            </div>
+                            <div class="center-content">
+                                <h4 class="profile__name">Ivan Pylypenko</h4>
+                                <div class="rate-frame">
+                                    Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
+                                </div>
+                                <a class="profile-button" href="">Check</a>
+                            </div>
+                            <div class="right-content">
+                                <p class="profile-age">Age: 50 y.o </p>
+                                <p class="profile-country">Country: Ukraine, Kyiv.</p>
+                                <p class="profile-profession">2nd officer on Passenger Ships</p>
+                                <p class="profile-id">Crewell ID: 98765</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="profile">
-                    <div class="profile-inner">
-                        <div class="left-content">
-                            <img class="profile__img" src="./static/petro.jpg" alt="img">
-                        </div>
-                        <div class="center-content">
-                            <h4 class="profile__name">Petro Tyutyunnik</h4>
-                            <div class="rate-frame">
-                                Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
+                    <div class="profile">
+                        <div class="profile-inner">
+                            <div class="left-content">
+                                <img class="profile__img" src="./static/petro.jpg" alt="img">
                             </div>
-                            <a class="profile-button" href="">Check</a>
-                        </div>
-                        <div class="right-content">
-                            <p class="profile-age">Age: 50 y.o </p>
-                            <p class="profile-country">Country: Ukraine, Kyiv.</p>
-                            <p class="profile-profession">2nd officer on Passenger Ships</p>
-                            <p class="profile-id">Crewell ID: 98765</p>
+                            <div class="center-content">
+                                <h4 class="profile__name">Petro Tyutyunnik</h4>
+                                <div class="rate-frame">
+                                    Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
+                                </div>
+                                <a class="profile-button" href="">Check</a>
+                            </div>
+                            <div class="right-content">
+                                <p class="profile-age">Age: 50 y.o </p>
+                                <p class="profile-country">Country: Ukraine, Kyiv.</p>
+                                <p class="profile-profession">2nd officer on Passenger Ships</p>
+                                <p class="profile-id">Crewell ID: 98765</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="profile">
-                    <div class="profile-inner">
-                        <div class="left-content">
-                            <img class="profile__img" src="./static/ter.jpg" alt="img">
-                        </div>
-                        <div class="center-content">
-                            <h4 class="profile__name">Ivan Pylypenko</h4>
-                            <div class="rate-frame">
-                                Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
+                    <div class="profile">
+                        <div class="profile-inner">
+                            <div class="left-content">
+                                <img class="profile__img" src="./static/ter.jpg" alt="img">
                             </div>
-                            <a class="profile-button" href="">Check</a>
-                        </div>
-                        <div class="right-content">
-                            <p class="profile-age">Age: 50 y.o </p>
-                            <p class="profile-country">Country: Ukraine, Kyiv.</p>
-                            <p class="profile-profession">2nd officer on Passenger Ships</p>
-                            <p class="profile-id">Crewell ID: 98765</p>
+                            <div class="center-content">
+                                <h4 class="profile__name">Ivan Pylypenko</h4>
+                                <div class="rate-frame">
+                                    Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
+                                </div>
+                                <a class="profile-button" href="">Check</a>
+                            </div>
+                            <div class="right-content">
+                                <p class="profile-age">Age: 50 y.o </p>
+                                <p class="profile-country">Country: Ukraine, Kyiv.</p>
+                                <p class="profile-profession">2nd officer on Passenger Ships</p>
+                                <p class="profile-id">Crewell ID: 98765</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="profile">
-                    <div class="profile-inner">
-                        <div class="left-content">
-                            <img class="profile__img" src="./static/sergiy.jpg" alt="img">
-                        </div>
-                        <div class="center-content">
-                            <h4 class="profile__name">Sergiy Teterya</h4>
-                            <div class="rate-frame">
-                                Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
+                    <div class="profile">
+                        <div class="profile-inner">
+                            <div class="left-content">
+                                <img class="profile__img" src="./static/sergiy.jpg" alt="img">
                             </div>
-                            <a class="profile-button" href="">Check</a>
-                        </div>
-                        <div class="right-content">
-                            <p class="profile-age">Age: 50 y.o </p>
-                            <p class="profile-country">Country: Ukraine, Kyiv.</p>
-                            <p class="profile-profession">2nd officer on Passenger Ships</p>
-                            <p class="profile-id">Crewell ID: 98765</p>
+                            <div class="center-content">
+                                <h4 class="profile__name">Sergiy Teterya</h4>
+                                <div class="rate-frame">
+                                    Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
+                                </div>
+                                <a class="profile-button" href="">Check</a>
+                            </div>
+                            <div class="right-content">
+                                <p class="profile-age">Age: 50 y.o </p>
+                                <p class="profile-country">Country: Ukraine, Kyiv.</p>
+                                <p class="profile-profession">2nd officer on Passenger Ships</p>
+                                <p class="profile-id">Crewell ID: 98765</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="profile">
-                    <div class="profile-inner">
-                        <div class="left-content">
-                            <img class="profile__img" src="./static/maxim.jpg" alt="img">
-                        </div>
-                        <div class="center-content">
-                            <h4 class="profile__name">Maxym Gorkiy</h4>
-                            <div class="rate-frame">
-                                Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
+                    <div class="profile">
+                        <div class="profile-inner">
+                            <div class="left-content">
+                                <img class="profile__img" src="./static/maxim.jpg" alt="img">
                             </div>
-                            <a class="profile-button" href="">Check</a>
-                        </div>
-                        <div class="right-content">
-                            <p class="profile-age">Age: 50 y.o </p>
-                            <p class="profile-country">Country: Ukraine, Kyiv.</p>
-                            <p class="profile-profession">2nd officer on Passenger Ships</p>
-                            <p class="profile-id">Crewell ID: 98765</p>
+                            <div class="center-content">
+                                <h4 class="profile__name">Maxym Gorkiy</h4>
+                                <div class="rate-frame">
+                                    Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
+                                </div>
+                                <a class="profile-button" href="">Check</a>
+                            </div>
+                            <div class="right-content">
+                                <p class="profile-age">Age: 50 y.o </p>
+                                <p class="profile-country">Country: Ukraine, Kyiv.</p>
+                                <p class="profile-profession">2nd officer on Passenger Ships</p>
+                                <p class="profile-id">Crewell ID: 98765</p>
+                            </div>
                         </div>
                     </div>
+                    <p class="more-profiles">Load more ...</p>
                 </div>
-                <p class="more-profiles">Load more ...</p>
             </div>
         </div>
         <footer class="footer">

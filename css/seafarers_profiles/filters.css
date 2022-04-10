@@ -1,0 +1,62 @@
+.filters {
+    max-width: 217px;
+}
+
+.filters__title {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 800;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.filters-form {
+    
+}
+
+.country-block {
+
+}
+
+.filter-title {
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 7px;
+}
+
+.country-input {
+    
+}
+.reg__input {
+}
+.country__select {
+    width: 217px;
+    height: 60px;
+    padding-left: 20px;
+    color: #C9C9C9;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background-image: url("../../static/icons/select_arrow.svg");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 50%;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.position-block {
+    margin-bottom: 32px;
+}
+
+.checkbox__item:not(:last-child){
+    margin-bottom: 7px;
+}
+
+.type-of-ship-block {
+    
+}

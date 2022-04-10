@@ -7,6 +7,7 @@
 
 @import "../seafarers_profiles/search_frame.css";
 @import "../seafarers_profiles/profiles_frame.css";
+@import "../seafarers_profiles/filters.css";
 
 * {
     box-sizing: border-box;
