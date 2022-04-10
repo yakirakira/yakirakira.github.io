@@ -1,5 +1,10 @@
 .filters {
     max-width: 217px;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -140px;
 }
 
 .filters__title {

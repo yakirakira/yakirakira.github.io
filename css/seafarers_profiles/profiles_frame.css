@@ -1,5 +1,6 @@
 .profiles-frame-inner {
     display: flex;
+    justify-content: space-between;
 }
 
 .profile {
@@ -15,7 +16,7 @@
 
 .left-content {
     max-width: 220px;
-    margin: 25px 80px 25px 25px;
+    margin: 20px 80px 20px 20px;
 }
 
 .profile__img {
