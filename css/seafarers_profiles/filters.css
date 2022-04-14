@@ -15,14 +15,6 @@
     margin-bottom: 25px;
 }
 
-.filters-form {
-    
-}
-
-.country-block {
-
-}
-
 .filter-title {
     font-size: 30px;
     line-height: 54px;
@@ -31,11 +23,6 @@
     margin-bottom: 7px;
 }
 
-.country-input {
-    
-}
-.reg__input {
-}
 .country__select {
     width: 217px;
     height: 60px;
@@ -66,8 +53,4 @@
     font-size: 18px;
     line-height: 32px;
     color: #333333;
-}
-
-.type-of-ship-block {
-    
 }

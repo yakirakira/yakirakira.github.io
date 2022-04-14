@@ -1,0 +1,26 @@
+.headline-inner {
+    max-width: 1090px;
+    display: flex;
+    margin: 20px 0 90px;
+}
+
+.headline__link {
+    margin: 55px 179px 50px 0;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #4680FF;
+    white-space: nowrap;
+}
+
+.headline__icon {
+    margin-right: 16px;
+}
+
+.headline__title {
+    font-size: 100px;
+    line-height: 150px;
+    font-weight: 700;
+    color: #333333;
+    white-space: nowrap;
+}
