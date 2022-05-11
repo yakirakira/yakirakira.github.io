@@ -25,3 +25,60 @@
     line-height: 32px;
     font-weight: 700;
 }
+
+/* Tablet only */
+@media all and (max-width: 1389px) and (min-width: 1024px){
+    .policy {
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+    
+    .policy-inner {
+        padding: 0 90px;
+    }
+    
+    .policy__title {
+        font-size: 80px;
+        line-height: 120px;
+        margin-bottom: 20px;
+    }
+    
+    .policy__text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .chapter {
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+}
+
+/* Mob only */
+@media all and (max-width: 1023px){
+    .policy {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    
+    .policy-inner {
+        padding: 0 28px;
+    }
+    
+    .policy__title {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    
+    .policy__text {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    
+    .chapter {
+        font-size: 14px;
+        line-height: 23px;
+    }
+}

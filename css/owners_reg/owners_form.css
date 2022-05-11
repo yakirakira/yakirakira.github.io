@@ -149,3 +149,157 @@ input::placeholder {
     color: #fff;
     margin-top: 25px;
 }
+
+/* Tablet only */
+@media all and (max-width: 1389px) and (min-width: 1024px){
+    .owners-reg__title {
+        font-size: 80px;
+        line-height: 120px;
+        font-weight: 700;
+        margin: 5px 0 25px;
+    }
+
+    .owners-reg-bottom {
+        display: flex;
+        margin-bottom: 80px;
+    }
+    
+    .reg-img-wrapper {
+        display: none;
+    }
+
+    .reg-form {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .input-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .country-input {
+        width: 550px;
+        height: 64px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .city-input {
+        width: 550px;
+        height: 64px;
+        margin-bottom: 15px;
+    }
+    
+    .street-input {
+        width: 550px;
+        height: 64px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    
+    .house-input {
+        width: 550px;
+        height: 64px;
+        margin-bottom: 15px;
+    }
+
+    .country__select {
+        background-position-x: 97%;
+    }
+    
+    .city__select {
+        background-position-x: 97%;
+    }
+}
+
+/* Mob only */
+@media all and (max-width: 1023px){
+    .owners-reg__title {
+        font-size: 45px;
+        line-height: 45px;
+        font-weight: 700;
+        margin: 20px 0 50px;
+    }
+
+    .owners-reg-bottom {
+        display: flex;
+        margin-bottom: 40px;
+    }
+    
+    .reg-img-wrapper {
+        display: none;
+    }
+
+    .reg-form {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .reg__input {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    
+    .input-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name-input {
+        width: 335px;
+        margin-bottom: 25px;
+    }
+
+    .country-input {
+        width: 335px;
+        height: 64px;
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+
+    .city-input {
+        width: 335px;
+        margin-bottom: 25px;
+    }
+    
+    .street-input {
+        width: 335px;
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+    
+    .house-input {
+        width: 335px;
+        margin-bottom: 25px;
+    }
+
+    .email-input {
+        width: 335px;
+        margin-bottom: 25px;
+    }
+    
+    .password-input {
+        width: 335px;    
+    }
+
+    .country__select {
+        background-position-x: 95%;
+    }
+    
+    .city__select {
+        background-position-x: 95%;
+    }
+
+    .form-btn {
+        width: 335px;
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 25px;
+    }
+    
+}
