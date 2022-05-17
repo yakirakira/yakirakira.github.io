@@ -101,3 +101,82 @@ input::placeholder {
 .underlined {
     text-decoration: underline;
 }
+
+/* Tablet only */
+@media all and (max-width: 1389px) and (min-width: 1024px){
+    .loginin-reg__title {
+        font-size: 80px;
+        line-height: 120px;
+        font-weight: 700;
+        margin: 5px 0 25px;
+    }
+
+    .loginin-reg-bottom {
+        margin-bottom: 80px;
+    }
+    
+    .reg-img-wrapper {
+        display: none;
+    }
+
+    .reg-form {
+        margin: 0 auto;
+    }
+
+    .input-wrapper {
+        width: 550px;
+        margin-bottom: 25px;
+    }
+
+    .form-btn {
+        width: 550px;
+    }
+}
+
+/* Mob only */
+@media all and (max-width: 1023px){
+    .loginin-reg__title {
+        font-size: 45px;
+        line-height: 45px;
+        font-weight: 700;
+        margin: 20px 0 50px;
+    }
+
+    .loginin-reg-bottom {
+        margin-bottom: 44px;
+    }
+    
+    .reg-img-wrapper {
+        display: none;
+    }
+
+    .reg-form {
+        margin: 0 auto;
+    }
+
+    .reg__input {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .input-wrapper {
+        width: 335px;
+        margin-bottom: 25px;
+    }
+
+    .form-btn {
+        width: 335px;
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 0;
+    }
+
+    .recovery {
+        display: none;
+    }
+    
+    .register {
+        font-size: 14px;
+        line-height: 23px;
+    }
+}

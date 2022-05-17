@@ -160,7 +160,6 @@ input::placeholder {
     }
 
     .owners-reg-bottom {
-        display: flex;
         margin-bottom: 80px;
     }
     
@@ -170,9 +169,6 @@ input::placeholder {
 
     .reg-form {
         margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
     }
     
     .input-boxes {
@@ -182,28 +178,20 @@ input::placeholder {
 
     .country-input {
         width: 550px;
-        height: 64px;
-        margin-bottom: 15px;
         margin-right: 0;
     }
 
     .city-input {
         width: 550px;
-        height: 64px;
-        margin-bottom: 15px;
     }
     
     .street-input {
         width: 550px;
-        height: 64px;
-        margin-bottom: 15px;
         margin-right: 0;
     }
     
     .house-input {
         width: 550px;
-        height: 64px;
-        margin-bottom: 15px;
     }
 
     .country__select {
@@ -225,7 +213,6 @@ input::placeholder {
     }
 
     .owners-reg-bottom {
-        display: flex;
         margin-bottom: 40px;
     }
     
@@ -235,12 +222,10 @@ input::placeholder {
 
     .reg-form {
         margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
     }
 
     .reg__input {
+        padding-left: 20px;
         font-size: 15px;
         line-height: 22px;
     }

@@ -135,3 +135,77 @@ input::placeholder {
     color: #4680FF;
     border: 1px solid #4680FF;
 }
+
+/* Tablet only */
+@media all and (max-width: 1389px) and (min-width: 1024px){
+    .seafarers-account__title {
+        font-size: 80px;
+        line-height: 120px;
+        font-weight: 700;
+        margin: 5px 0 25px;
+    }
+
+    .seafarers-account-bottom {
+        flex-direction: column-reverse;
+        margin-bottom: 70px;
+    }
+
+    .account-img-wrapper {
+        max-height: none;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    .reg-form {
+        margin: 0 auto;
+    }
+
+    .input-wrapper {
+        margin-bottom: 25px;
+    }
+    
+}
+
+/* Mob only */
+@media all and (max-width: 1023px){
+    .seafarers-account__title {
+        font-size: 45px;
+        line-height: 45px;
+        font-weight: 700;
+        margin: 20px 0 50px;
+    }
+
+    .seafarers-account-bottom {
+        flex-direction: column-reverse;
+        margin-bottom: 41px;
+    }
+
+    .account-img-wrapper {
+        max-height: none;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    .input-wrapper {
+        width: 335px;
+        margin-bottom: 15px;
+    }
+
+    .reg__input {
+        padding-left: 20px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .form-btn {
+        width: 158px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    
+    .cancel {
+        margin-right: 19px;
+    }
+}
