@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <title>For seafarers</title>
+        <title>Seafarers profiles</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,8 +45,9 @@
             </div>
         </div>
         <div class="profiles-frame">
-            <div class="profiles-frame-inner container">
-                <div class="filters">
+            <div class="btn-block ">
+                <button onclick="myFunction()" class="filters-btn"><img class="filters-icon" src="./static/icons/filters.svg" alt=""> Filters</button>
+                <div id="myDropdown" class="filters">
                     <h3 class="filters__title">Filters</h3>
                     <form class="filters-form">
                         <div class="country-block">
@@ -93,6 +94,8 @@
                         </div>
                     </form>
                 </div>
+            </div>                
+            <div class="profiles-frame-inner container">
                 <div class="profiles-block">
                     <div class="profile">
                         <div class="profile-inner">
@@ -223,5 +226,10 @@
                 </div>
             </div>
         </footer>
+        <script>
+            function myFunction() {
+                 document.getElementById("myDropdown").classList.toggle("show");
+            }
+        </script>
     </body>
 </html>

@@ -38,7 +38,6 @@
 }
 
 .search-form__input {
-    height: 80px;
     width: 100%;
     border: none;
     outline: none;
@@ -69,4 +68,46 @@
 
 .icon-search {
     margin-left: 20px;
+}
+
+/* Mob only */
+@media all and (max-width: 1023px){
+    .search-frame__title {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .search-frame__text {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    
+    .search-form__search {
+        width: 335px;
+        height: 50px;
+        padding-right: 0;
+    }
+
+    .search-form__input {
+        font-size: 14px;
+        line-height: 23px;
+        color: #8B8B8B;
+        padding: 0 15px;
+    }
+
+    .search-form__submit {
+        width: 57px;
+        height: 50px;
+        background-color: transparent;        
+        padding: 0px;
+    }
+
+    .btn-text {
+        display: none;
+        background-image: url("searchblue.svg");
+    }
+    
+    .icon-search {
+        margin-left: 0px;
+    }
 }
