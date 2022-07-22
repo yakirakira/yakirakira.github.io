@@ -12,7 +12,7 @@
 }
 
 .review-frame {
-    width: 1150px;
+    max-width: 1150px;
     height: auto;
     padding: 50px 0;
     background-color: #FFFFFF;
@@ -53,4 +53,49 @@
 
 .anchor {
     margin-left: 20px;
+}
+
+/* Mob only */
+@media all and (max-width: 1023px){
+    .review {
+        padding: 50px 0 80px;
+        border-top: 1px solid #C9C9C9;
+    }
+    
+    .review-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .review-frame {
+
+        padding: 54px 29px;
+    }
+
+    .frame__title {
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 700;
+        text-align: center;
+        color: #333333;
+        margin-bottom: 10px;
+    }
+
+    .frame__text {
+        font-size: 18px;
+        line-height: 32px;
+        color: #333333;
+        margin-bottom: 10px;
+    }
+    
+    .frame__button {
+        min-width: 180px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    
+    .anchor {
+        margin-left: 20px;
+    }
 }
