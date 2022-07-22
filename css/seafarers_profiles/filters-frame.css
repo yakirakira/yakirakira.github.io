@@ -1,10 +1,14 @@
 .filters {
     max-width: 217px;
-    position: relative;
-    top: 0;
+    position: absolute;
+    top: 543px;
     right: 0;
     bottom: 0;
-    left: -140px;
+    left: 125px;
+}
+
+.btn-block {
+    display: none;
 }
 
 .filters__title {
@@ -60,18 +64,14 @@
 @media all and (max-width: 1023px){
     .filters {
         display: none;
-        max-width: 217px;
-        position: relative;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding-left: 20px;
-        margin-bottom: 40px;
     }
 
-    .filters__title {
+    .btn-block__filters {
         display: none;
+    }
+
+    .filters-form {
+        margin-top: 12px;
     }
     
     .filter-title {
@@ -88,6 +88,32 @@
         padding: 0 15px;
     }
 
+    .btn-block {
+        display: block;
+        border-top: 1px solid #C9C9C9;
+        border-bottom: 1px solid #C9C9C9;
+        margin-bottom: 40px;
+        padding: 20px
+    }
+
+    .filters-icon {
+        margin-right: 11px;
+    }
+
+    .filters-btn  { 
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        font-size: 18px;
+        line-height: 32px;
+        cursor: pointer;
+    }
+
+    .filters-btn_blue {
+        color: #4680FF;
+    }
+    
     .show {
         display: block;
     }

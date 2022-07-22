@@ -60,6 +60,10 @@
     padding: 0 33px;
 }
 
+.search-form__submit-mob {
+    display: none;
+}
+
 .btn-text {
     font-size: 19px;
     line-height: 28px;
@@ -72,6 +76,10 @@
 
 /* Mob only */
 @media all and (max-width: 1023px){
+    .search-frame {
+        margin: 20px 0 40px;
+    }
+
     .search-frame__title {
         font-size: 45px;
         margin-bottom: 20px;
@@ -96,18 +104,15 @@
     }
 
     .search-form__submit {
-        width: 57px;
-        height: 50px;
-        background-color: transparent;        
-        padding: 0px;
+        display: none;
     }
 
-    .btn-text {
-        display: none;
-        background-image: url("searchblue.svg");
-    }
-    
-    .icon-search {
-        margin-left: 0px;
+    .search-form__submit-mob {
+        display: block;
+        background-color: transparent;
+        width: 57px;
+        height: 50px;
+        padding: 0;
+
     }
 }

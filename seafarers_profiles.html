@@ -40,15 +40,64 @@
                     <div class="search-form__search">
                         <input class="search-form__input" placeholder="Type your name or surname..." type="search" name="q">
                         <button class="search-form__submit" type="submit"><span class="btn-text">Search</span> <img src="./static/icons/searchbtn.svg" alt="search" class="icon-search"></button>
+                        <button class="search-form__submit-mob" type="submit"> <img src="./static/icons/searchblue.svg" alt="search" class="icon-search_mob"></button>
                     </div>
                 </form>
             </div>
         </div>
-        <div class="profiles-frame">
+        <div class="filters-frame">
+            <div class="filters">
+                <h3 class="filters__title">Filters</h3>
+                <form class="filters-form">
+                    <div class="country-block">
+                        <h5 class="filter-title">Country</h5>
+                        <div class="country-input">
+                            <select name="country" class="reg__input country__select" id="country">
+                                <option value="0" label="Select country" selected="selected">Select country </option>
+                                <optgroup id="country-optgroup-Africa" label="Africa">
+                                    <option value="DZ" label="Algeria">Algeria</option>
+                                    <option value="AO" label="Angola">Angola</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="position-block">
+                        <h5 class="filter-title">Position</h5>
+                        <div class="checkbox__item">
+                            <input type="checkbox" name="position" id="" value="" checked>
+                            <label class="checkbox__name" for="position">Chief Officer</label>
+                        </div>
+                        <div class="checkbox__item">
+                            <input type="checkbox" name="position" id="" value="">
+                            <label class="checkbox__name" for="position">Chief Officer</label>
+                        </div>
+                        <div class="checkbox__item">
+                            <input type="checkbox" name="position" id="" value="">
+                            <label class="checkbox__name" for="position">Chief Officer</label>
+                        </div>
+                    </div>
+                    <div class="type-of-ship-block">
+                        <h5 class="filter-title">Type of ship</h5>
+                        <div class="checkbox__item">
+                            <input type="checkbox" name="type-of-ship" id="" value="Offshore">
+                            <label class="checkbox__name" for="type-of-ship">Offshore fleet</label>
+                        </div>
+                        <div class="checkbox__item">
+                            <input type="checkbox" name="type-of-ship" id="" value="Support">
+                            <label class="checkbox__name" for="type-of-ship">Support fleet</label>
+                        </div>
+                        <div class="checkbox__item">
+                            <input type="checkbox" name="type-of-ship" id="" value="Dry cargo">
+                            <label class="checkbox__name" for="type-of-ship">Dry cargo Fleet</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
             <div class="btn-block ">
-                <button onclick="myFunction()" class="filters-btn"><img class="filters-icon" src="./static/icons/filters.svg" alt=""> Filters</button>
-                <div id="myDropdown" class="filters">
-                    <h3 class="filters__title">Filters</h3>
+                <button onclick="myFunction()" id="btn" class="filters-btn"><svg class="filters-icon" width="18" height="16" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.1667 1.25H1.83334L9.16668 9.92167V15.9167L12.8333 17.75V9.92167L20.1667 1.25Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg> Filters</button>
+                <div id="myDropdown" class="btn-block__filters">
                     <form class="filters-form">
                         <div class="country-block">
                             <h5 class="filter-title">Country</h5>
@@ -94,111 +143,127 @@
                         </div>
                     </form>
                 </div>
-            </div>                
+            </div> 
+        </div>
+        <div class="profiles-frame">               
             <div class="profiles-frame-inner container">
                 <div class="profiles-block">
                     <div class="profile">
-                        <div class="profile-inner">
-                            <div class="left-content">
-                                <img class="profile__img" src="./static/ter.jpg" alt="img">
+                        <div class="left-content">
+                            <img class="profile__img" src="./static/ter.jpg" alt="img">
+                        </div>
+                        <div class="center-content">
+                            <h4 class="profile__name">Ivan Pylypenko</h4>
+                            <div class="rate-frame">
+                                Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
                             </div>
-                            <div class="center-content">
-                                <h4 class="profile__name">Ivan Pylypenko</h4>
-                                <div class="rate-frame">
-                                    Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
-                                </div>
-                                <a class="profile-button" href="">Check</a>
-                            </div>
-                            <div class="right-content">
-                                <p class="profile-age">Age: 50 y.o </p>
-                                <p class="profile-country">Country: Ukraine, Kyiv.</p>
-                                <p class="profile-profession">2nd officer on Passenger Ships</p>
-                                <p class="profile-id">Crewell ID: 98765</p>
-                            </div>
+                            <a class="profile-button" href="">Check</a>
+                        </div>
+                        <div class="right-content">
+                            <p class="profile-age">Age: 50 y.o </p>
+                            <p class="profile-country">Country: Ukraine, Kyiv.</p>
+                            <p class="profile-profession">2nd officer on Passenger Ships</p>
+                            <p class="profile-id">Crewell ID: 98765</p>
+                            <a class="profile-button_mob" href="">Check</a>
                         </div>
                     </div>
                     <div class="profile">
-                        <div class="profile-inner">
-                            <div class="left-content">
-                                <img class="profile__img" src="./static/petro.jpg" alt="img">
+                        <div class="left-content">
+                            <img class="profile__img" src="./static/petro.jpg" alt="img">
+                        </div>
+                        <div class="center-content">
+                            <h4 class="profile__name">Petro Tyutyunnik</h4>
+                            <div class="rate-frame">
+                                Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
                             </div>
-                            <div class="center-content">
-                                <h4 class="profile__name">Petro Tyutyunnik</h4>
-                                <div class="rate-frame">
-                                    Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
-                                </div>
-                                <a class="profile-button" href="">Check</a>
-                            </div>
-                            <div class="right-content">
-                                <p class="profile-age">Age: 50 y.o </p>
-                                <p class="profile-country">Country: Ukraine, Kyiv.</p>
-                                <p class="profile-profession">2nd officer on Passenger Ships</p>
-                                <p class="profile-id">Crewell ID: 98765</p>
-                            </div>
+                            <a class="profile-button" href="">Check</a>
+                        </div>
+                        <div class="right-content">
+                            <p class="profile-age">Age: 50 y.o </p>
+                            <p class="profile-country">Country: Ukraine, Kyiv.</p>
+                            <p class="profile-profession">2nd officer on Passenger Ships</p>
+                            <p class="profile-id">Crewell ID: 98765</p>
+                            <a class="profile-button_mob" href="">Check</a>
                         </div>
                     </div>
                     <div class="profile">
-                        <div class="profile-inner">
-                            <div class="left-content">
-                                <img class="profile__img" src="./static/ter.jpg" alt="img">
+                        <div class="left-content">
+                            <img class="profile__img" src="./static/ter.jpg" alt="img">
+                        </div>
+                        <div class="center-content">
+                            <h4 class="profile__name">Ivan Pylypenko</h4>
+                            <div class="rate-frame">
+                                Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
                             </div>
-                            <div class="center-content">
-                                <h4 class="profile__name">Ivan Pylypenko</h4>
-                                <div class="rate-frame">
-                                    Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
-                                </div>
-                                <a class="profile-button" href="">Check</a>
-                            </div>
-                            <div class="right-content">
-                                <p class="profile-age">Age: 50 y.o </p>
-                                <p class="profile-country">Country: Ukraine, Kyiv.</p>
-                                <p class="profile-profession">2nd officer on Passenger Ships</p>
-                                <p class="profile-id">Crewell ID: 98765</p>
-                            </div>
+                            <a class="profile-button" href="">Check</a>
+                        </div>
+                        <div class="right-content">
+                            <p class="profile-age">Age: 50 y.o </p>
+                            <p class="profile-country">Country: Ukraine, Kyiv.</p>
+                            <p class="profile-profession">2nd officer on Passenger Ships</p>
+                            <p class="profile-id">Crewell ID: 98765</p>
+                            <a class="profile-button_mob" href="">Check</a>
                         </div>
                     </div>
                     <div class="profile">
-                        <div class="profile-inner">
-                            <div class="left-content">
-                                <img class="profile__img" src="./static/sergiy.jpg" alt="img">
+                        <div class="left-content">
+                            <img class="profile__img" src="./static/sergiy.jpg" alt="img">
+                        </div>
+                        <div class="center-content">
+                            <h4 class="profile__name">Sergiy Teterya</h4>
+                            <div class="rate-frame">
+                                Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
                             </div>
-                            <div class="center-content">
-                                <h4 class="profile__name">Sergiy Teterya</h4>
-                                <div class="rate-frame">
-                                    Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
-                                </div>
-                                <a class="profile-button" href="">Check</a>
-                            </div>
-                            <div class="right-content">
-                                <p class="profile-age">Age: 50 y.o </p>
-                                <p class="profile-country">Country: Ukraine, Kyiv.</p>
-                                <p class="profile-profession">2nd officer on Passenger Ships</p>
-                                <p class="profile-id">Crewell ID: 98765</p>
-                            </div>
+                            <a class="profile-button" href="">Check</a>
+                        </div>
+                        <div class="right-content">
+                            <p class="profile-age">Age: 50 y.o </p>
+                            <p class="profile-country">Country: Ukraine, Kyiv.</p>
+                            <p class="profile-profession">2nd officer on Passenger Ships</p>
+                            <p class="profile-id">Crewell ID: 98765</p>
+                            <a class="profile-button_mob" href="">Check</a>
                         </div>
                     </div>
                     <div class="profile">
-                        <div class="profile-inner">
-                            <div class="left-content">
-                                <img class="profile__img" src="./static/maxim.jpg" alt="img">
+                        <div class="left-content">
+                            <img class="profile__img" src="./static/maxim.jpg" alt="img">
+                        </div>
+                        <div class="center-content">
+                            <h4 class="profile__name">Maxym Gorkiy</h4>
+                            <div class="rate-frame">
+                                Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
                             </div>
-                            <div class="center-content">
-                                <h4 class="profile__name">Maxym Gorkiy</h4>
-                                <div class="rate-frame">
-                                    Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
-                                </div>
-                                <a class="profile-button" href="">Check</a>
-                            </div>
-                            <div class="right-content">
-                                <p class="profile-age">Age: 50 y.o </p>
-                                <p class="profile-country">Country: Ukraine, Kyiv.</p>
-                                <p class="profile-profession">2nd officer on Passenger Ships</p>
-                                <p class="profile-id">Crewell ID: 98765</p>
-                            </div>
+                            <a class="profile-button" href="">Check</a>
+                        </div>
+                        <div class="right-content">
+                            <p class="profile-age">Age: 50 y.o </p>
+                            <p class="profile-country">Country: Ukraine, Kyiv.</p>
+                            <p class="profile-profession">2nd officer on Passenger Ships</p>
+                            <p class="profile-id">Crewell ID: 98765</p>
+                            <a class="profile-button_mob" href="">Check</a>
                         </div>
                     </div>
-                    <p class="more-profiles">Load more ...</p>
+                    <div class="profile_mob">
+                        <div class="left-content">
+                            <img class="profile__img" src="./static/ter.jpg" alt="img">
+                        </div>
+                        <div class="center-content">
+                            <h4 class="profile__name">Ivan Pylypenko</h4>
+                            <div class="rate-frame">
+                                Rate: <span class="rate__number">5</span> <img class="rate-frame__dislike" src="./static/icons/dislike_transparent.svg" alt="">
+                            </div>
+                            <a class="profile-button" href="">Check</a>
+                        </div>
+                        <div class="right-content">
+                            <p class="profile-age">Age: 50 y.o </p>
+                            <p class="profile-country">Country: Ukraine, Kyiv.</p>
+                            <p class="profile-profession">2nd officer on Passenger Ships</p>
+                            <p class="profile-id">Crewell ID: 98765</p>
+                            <a class="profile-button_mob" href="">Check</a>
+                        </div>
+                    </div>    
                 </div>
+                <p class="more-profiles">Load more ...</p>
             </div>
         </div>
         <footer class="footer">
@@ -228,6 +293,7 @@
         </footer>
         <script>
             function myFunction() {
+                 document.getElementById("btn").classList.toggle("filters-btn_blue");
                  document.getElementById("myDropdown").classList.toggle("show");
             }
         </script>
