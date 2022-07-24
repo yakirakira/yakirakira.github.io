@@ -5,7 +5,7 @@
     padding-bottom: 150px;
 }
 
-.profile-inner {
+.profile-top {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,6 @@
     line-height: 150px;
     font-weight: 700;
     color: #333333;
-    margin-bottom: 25px;
 }
 
 .profile__text {
@@ -29,7 +28,7 @@
 }
 
 .profile__button {
-    min-width: 310px;
+    width: 310px;
     height: 60px;
     background-color: #4680FF;
     color: #FFFFFF;

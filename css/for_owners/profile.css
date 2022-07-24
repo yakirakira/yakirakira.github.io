@@ -82,4 +82,8 @@
         line-height: 23px;
         margin-bottom: 60px;
     }
+
+    .profile-bottom {
+        height: 290px;
+    }
 }

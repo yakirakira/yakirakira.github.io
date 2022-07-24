@@ -48,6 +48,20 @@
     margin-left: 20px;
 }
 
+.steps-img {
+    max-width: 550px;
+}
+
+.steps-img__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.steps__button_mob {
+    display: none;
+}
+
 .steps-bottom {
     display: flex;
     justify-content: center;
@@ -65,6 +79,7 @@
     width: 64px;
     font-size: 30px;
     line-height: 54px;
+    font-weight: 700;
     color: #FFFFFF;
     padding-left: 16px;
     background-color: #4680FF;
@@ -86,4 +101,88 @@
     line-height: 32px;
     text-align: center;
     color: #C9C9C9;
+}
+
+/* Mob only */
+@media all and (max-width: 1023px){
+    .steps {
+        padding: 50px 0;
+    }
+
+    .steps-top {
+        margin-bottom: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps__title {
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 700;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .steps__text {
+        font-size: 14px;
+        line-height: 23px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .steps__button {
+        display: none;
+    }
+
+    .steps__button_mob {
+        display: block;
+        width: 180px;
+        height: 50px;
+        background-color: #4680FF;
+        color: #FFFFFF;
+        font-size: 15px;
+        line-height: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .anchor {
+        margin-left: 23px;
+    }
+
+    .steps-bottom {
+        flex-direction: column;
+    }
+    
+    .steps-bottom__point {
+        width: 335px;
+    }
+    
+    .steps-bottom__point:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 22px;
+    }
+    
+    .point-number {
+        width: 44px;
+        font-size: 25px;
+        line-height: 45px;
+        padding-left: 10px;
+        margin-bottom: 44px;
+    }
+
+    .point-title {
+        font-size: 25px;
+        line-height: 45px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    
+    .point-text {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
 }
