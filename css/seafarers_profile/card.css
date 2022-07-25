@@ -67,6 +67,19 @@
     margin-bottom: 22px;
 }
 
+/* Tab only */
+@media all and (max-width: 1389px) and (min-width: 1024px){
+    .right-content {
+        margin: 28px 145px 28px 0;
+    }
+
+    .card__name {
+        font-size: 30px;
+        line-height: 54px;
+        margin-bottom: 22px;
+    }
+}
+
 /* Mob only */
 @media all and (max-width: 1023px){
     .card-inner {

@@ -73,6 +73,19 @@
     margin-left: 20px;
 }
 
+/* Tab only */
+@media all and (max-width: 1389px) and (min-width: 1024px){
+    .review__title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .review__date {
+        font-size: 20px;
+        line-height: 45px;
+    }
+}
+
 /* Mob only */
 @media all and (max-width: 1023px){
     .reviews {

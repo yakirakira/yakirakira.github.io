@@ -27,7 +27,6 @@
 }
 
 .center-content {
-   
     margin-right: 80px;
 }
 
@@ -107,6 +106,57 @@
     color: #4680FF;
     margin-bottom: 100px;
     cursor: pointer;
+}
+
+/* Tab only */
+@media all and (max-width: 1389px) and (min-width: 1024px){
+    .profiles-block {
+        padding-left: 0;
+    }
+
+    .left-content {
+        margin: 25px;
+    }
+    
+    .center-content {
+        margin-right: 0;
+    }
+    
+    .profile__name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 30px;
+        line-height: 54px;
+        margin-bottom: 20px;
+    }
+    
+    .rate-frame {
+        margin-bottom: 20px;
+    }
+    
+    .profile-button {
+        width: 180px;
+        height: 60px;
+        font-size: 19px;
+    }
+    
+    .profile-button_mob {
+        display: none;
+    }
+    
+    .profile-button:hover {
+        background-color: #4680FF;
+        color: #FFFFFF;
+    }
+    
+    .right-content {
+        margin-right: 18px;
+    }
+    
+    .more-profiles {
+        line-height: 54px;
+        margin-bottom: 50px;
+    }
 }
 
 /* Mob only */
