@@ -12,6 +12,10 @@
     margin-bottom: 100px;
 }
 
+.review_mob-visible {
+    display: none;
+}
+
 .review__date {
     font-size: 30px;
     line-height: 54px;
@@ -67,4 +71,37 @@
 
 .loadfile {
     margin-left: 20px;
+}
+
+/* Mob only */
+@media all and (max-width: 1023px){
+    .reviews {
+        border-top: 1px solid #C9C9C9;
+        padding-top: 40px;
+    }
+
+    .review_mob-hidden {
+        display: none;
+    }
+
+    .review_mob-visible {
+        display: block;
+    }
+
+    .review__title {
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+
+    .review__date {
+        font-size: 25px;
+        line-height: 45px;
+        font-weight: 600;
+    }
+    
+    .review__text {
+        font-size: 14px;
+        line-height: 23px;
+    }
 }

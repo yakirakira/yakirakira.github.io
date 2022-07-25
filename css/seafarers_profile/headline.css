@@ -24,3 +24,30 @@
     color: #333333;
     white-space: nowrap;
 }
+
+/* Mob only */
+@media all and (max-width: 1023px){
+    .headline-inner {
+        margin: 0;
+        align-items: center;
+    }
+
+    .headline__link-text {
+        display: none;
+    }
+    
+    .headline__link {
+        margin: 73px 0;
+    }
+    
+    .headline__icon {
+        margin-right: 0;
+    }
+    
+    .headline__title {
+        font-size: 45px;
+        line-height: 45px;
+        white-space: pre-wrap;
+        text-align: center;
+    }
+}
